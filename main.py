@@ -4,6 +4,8 @@ import requests
 from datetime import datetime
 
 load_dotenv()
+# https://docs.google.com/spreadsheets/d/1mlCjblBAzZNhTFuDTrTuSEDjN3AqovwUEtEEBAZlXog/edit#gid=0
+# https://dashboard.sheety.co/
 
 NUTRITION_APPLICATION_ID = os.getenv("NUTRITION_APPLICATION_ID")
 NUTRITION_APPLICATION_KEY = os.getenv("NUTRITION_APPLICATION_KEY")
